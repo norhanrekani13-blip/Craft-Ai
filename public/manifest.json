@@ -1,0 +1,17 @@
+{
+  "name": "Craft AI",
+  "short_name": "Craft AI",
+  "description": "Craft AI is an artisan, production-ready AI assistant featuring ultra-fast streaming responses, voice interaction, multimodal reasoning, and seamless workspace productivity.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

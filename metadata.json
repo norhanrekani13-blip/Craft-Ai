@@ -1,0 +1,6 @@
+{
+  "name": "Craft AI",
+  "description": "Craft AI is an artisan, production-ready AI assistant featuring ultra-fast streaming responses, voice interaction, multimodal reasoning, and seamless workspace productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

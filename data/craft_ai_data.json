@@ -1,0 +1,727 @@
+{
+  "users": [
+    {
+      "id": "user_norhan",
+      "name": "Norhan Rekani",
+      "email": "norhanrekani03@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "plan": "pro",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "settings": {
+        "theme": "system",
+        "accentColor": "rose",
+        "chatStyle": "bubble",
+        "chatWidth": "comfortable",
+        "language": "en",
+        "background": {
+          "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+          "blur": 11,
+          "opacity": 0.15,
+          "overlayColor": "#090d16",
+          "position": "cover"
+        },
+        "voice": {
+          "enabled": true,
+          "speechToTextEnabled": true,
+          "textToSpeechEnabled": true,
+          "voiceName": "Kore",
+          "speechSpeed": 1,
+          "volume": 1,
+          "autoPlayResponses": false
+        },
+        "selectedLogo": "logo-5"
+      }
+    },
+    {
+      "id": "user_alex",
+      "name": "Alex Rivera",
+      "email": "alex@craft.ai",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80",
+      "plan": "pro",
+      "role": "user",
+      "createdAt": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "user_guest",
+      "name": "Guest Maker",
+      "email": "guest@craft.ai",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80",
+      "plan": "free",
+      "role": "user",
+      "createdAt": "2026-03-01T00:00:00.000Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "userId": "user_norhan",
+      "plan": "pro",
+      "subscriptionStatus": "active",
+      "subscriptionId": "sub_craft_pro_enterprise_8892",
+      "billingCycle": "yearly",
+      "startedAt": "2026-01-01T00:00:00.000Z",
+      "expiresAt": "2027-01-01T00:00:00.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-09-28T22:15:42.880Z"
+    },
+    {
+      "userId": "user_alex",
+      "plan": "pro",
+      "subscriptionStatus": "active",
+      "subscriptionId": "sub_craft_free",
+      "billingCycle": "monthly",
+      "startedAt": "2026-02-15T00:00:00.000Z",
+      "expiresAt": "2026-10-28T22:40:49.396Z",
+      "createdAt": "2026-02-15T00:00:00.000Z",
+      "updatedAt": "2026-09-28T22:40:49.396Z"
+    },
+    {
+      "userId": "user_guest",
+      "plan": "free",
+      "subscriptionStatus": "active",
+      "subscriptionId": "sub_craft_guest",
+      "billingCycle": "monthly",
+      "startedAt": "2026-03-01T00:00:00.000Z",
+      "expiresAt": "2099-01-01T00:00:00.000Z",
+      "createdAt": "2026-03-01T00:00:00.000Z",
+      "updatedAt": "2026-09-28T22:15:42.880Z"
+    }
+  ],
+  "usage": [
+    {
+      "userId": "user_norhan",
+      "messagesToday": 5,
+      "totalMessages": 8,
+      "tokensUsed": 217,
+      "voiceRequestsToday": 0,
+      "storageBytesUsed": 0,
+      "lastResetDate": "2026-09-29"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1790666723908_oxfa",
+      "userId": "user_norhan",
+      "title": "Hi, I am testing message 1.",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-29T07:25:23.908Z",
+      "updatedAt": "2026-09-29T07:25:39.264Z"
+    },
+    {
+      "id": "conv_1790666718857_oe2g",
+      "userId": "user_norhan",
+      "title": "Hi, I am testing message 1.",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-29T07:25:18.857Z",
+      "updatedAt": "2026-09-29T07:25:19.685Z"
+    },
+    {
+      "id": "conv_1790666704825_qv1d",
+      "userId": "user_norhan",
+      "title": "Preserved Chat Test",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-29T07:25:04.825Z",
+      "updatedAt": "2026-09-29T07:25:04.826Z"
+    },
+    {
+      "id": "conv_1790666306243_jxgl",
+      "userId": "user_norhan",
+      "title": "Test prompt 2: Quick math check 15 *...",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.1-pro-preview",
+      "createdAt": "2026-09-29T07:18:26.243Z",
+      "updatedAt": "2026-09-29T07:20:06.806Z"
+    },
+    {
+      "id": "conv_1790666299782_0b4o",
+      "userId": "user_norhan",
+      "title": "Test prompt 1: Say hello from flash",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-29T07:18:19.782Z",
+      "updatedAt": "2026-09-29T07:18:21.807Z"
+    },
+    {
+      "id": "conv_1790666276202_ihim",
+      "userId": "user_norhan",
+      "title": "Test prompt to check debug error",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.1-pro-preview",
+      "createdAt": "2026-09-29T07:17:56.202Z",
+      "updatedAt": "2026-09-29T07:17:59.476Z"
+    },
+    {
+      "id": "conv_1790666265445_6xsw",
+      "userId": "user_norhan",
+      "title": "Test prompt to check debug error",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.1-pro-preview",
+      "createdAt": "2026-09-29T07:17:45.445Z",
+      "updatedAt": "2026-09-29T07:17:49.186Z"
+    },
+    {
+      "id": "conv_1790666223827_ggdh",
+      "userId": "user_norhan",
+      "title": "Explain what a closure in JavaScript...",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.1-pro-preview",
+      "createdAt": "2026-09-29T07:17:03.827Z",
+      "updatedAt": "2026-09-29T07:17:05.028Z"
+    },
+    {
+      "id": "conv_1790666201276_d1lw",
+      "userId": "user_norhan",
+      "title": "Test prompt with gemini-3.1-pro-prev...",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.1-pro-preview",
+      "createdAt": "2026-09-29T07:16:41.276Z",
+      "updatedAt": "2026-09-29T07:16:42.326Z"
+    },
+    {
+      "id": "conv_1790635622774_gniq",
+      "userId": "user_norhan",
+      "title": "Test prompt: reply with Craft AI is...",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-28T22:47:02.774Z",
+      "updatedAt": "2026-09-29T07:15:28.888Z"
+    },
+    {
+      "id": "conv_1790635584693_383o",
+      "userId": "user_norhan",
+      "title": "Hello Craft AI!",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-28T22:46:24.693Z",
+      "updatedAt": "2026-09-28T22:46:34.987Z"
+    },
+    {
+      "id": "conv_1790635537128_c60w",
+      "userId": "user_norhan",
+      "title": "Hello Craft AI, introduce yourself i...",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-28T22:45:37.128Z",
+      "updatedAt": "2026-09-28T22:45:42.501Z"
+    },
+    {
+      "id": "conv_1790635471320_2fvn",
+      "userId": "user_norhan",
+      "title": "Hello Craft AI, say hi!",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-28T22:44:31.320Z",
+      "updatedAt": "2026-09-28T22:44:31.320Z"
+    },
+    {
+      "id": "conv_1790635460370_nwf4",
+      "userId": "user_norhan",
+      "title": "Hello, test message!",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-28T22:44:20.370Z",
+      "updatedAt": "2026-09-28T22:44:20.370Z"
+    },
+    {
+      "id": "conv_1790635410459_oaxi",
+      "userId": "user_norhan",
+      "title": "كوردي باديني",
+      "isPinned": false,
+      "isArchived": false,
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-09-28T22:43:30.459Z",
+      "updatedAt": "2026-09-28T22:43:37.270Z"
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": "conv_1790635410459_oaxi",
+      "role": "user",
+      "content": "كوردي باديني ",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635417270_4xpc",
+      "createdAt": "2026-09-28T22:43:37.270Z"
+    },
+    {
+      "conversationId": "conv_1790635460370_nwf4",
+      "role": "user",
+      "content": "Hello, test message!",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635460370_826q",
+      "createdAt": "2026-09-28T22:44:20.370Z"
+    },
+    {
+      "conversationId": "conv_1790635471320_2fvn",
+      "role": "user",
+      "content": "Hello Craft AI, say hi!",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635471320_hhja",
+      "createdAt": "2026-09-28T22:44:31.320Z"
+    },
+    {
+      "conversationId": "conv_1790635537128_c60w",
+      "role": "user",
+      "content": "Hello Craft AI, introduce yourself in one short sentence!",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635537128_933g",
+      "createdAt": "2026-09-28T22:45:37.128Z"
+    },
+    {
+      "conversationId": "conv_1790635537128_c60w",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.8-flash",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.8-flash is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790635542501_y83d",
+      "createdAt": "2026-09-28T22:45:42.501Z"
+    },
+    {
+      "conversationId": "conv_1790635584693_383o",
+      "role": "user",
+      "content": "Hello Craft AI!",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635584693_81hw",
+      "createdAt": "2026-09-28T22:46:24.693Z"
+    },
+    {
+      "conversationId": "conv_1790635584693_383o",
+      "role": "assistant",
+      "content": "Hello! I am **Craft AI**, built for speed, precision, and craftsmanship. \n\nHow can I help you today? Whether you need clean code, technical solutions, translations, or creative work, I am ready.",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 2871,
+        "totalDurationMs": 2876
+      },
+      "id": "msg_1790635587569_laqd",
+      "createdAt": "2026-09-28T22:46:27.569Z"
+    },
+    {
+      "conversationId": "conv_1790635584693_383o",
+      "role": "user",
+      "content": "Write a quick 2-line bash command to count files.",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635592969_lylq",
+      "createdAt": "2026-09-28T22:46:32.969Z"
+    },
+    {
+      "conversationId": "conv_1790635584693_383o",
+      "role": "assistant",
+      "content": "Here is the command to count all files in the current directory and its subdirectories:\n\n```bash\n# Finds all regular files, then counts the lines\nfind . -type f | wc -l\n```\n\n* **Direct folder only (non-recursive):** Replace `find . -type f` with `find . -maxdepth 1 -type f`.",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 2015,
+        "totalDurationMs": 2019
+      },
+      "id": "msg_1790635594987_w2fh",
+      "createdAt": "2026-09-28T22:46:34.987Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "user",
+      "content": "Test prompt: reply with Craft AI is operational.",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790635622774_64u0",
+      "createdAt": "2026-09-28T22:47:02.774Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "assistant",
+      "content": "Craft AI is operational.",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 2182,
+        "totalDurationMs": 2185
+      },
+      "id": "msg_1790635624959_9x29",
+      "createdAt": "2026-09-28T22:47:04.959Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "user",
+      "content": "Hi",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666077226_irq8",
+      "createdAt": "2026-09-29T07:14:37.226Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.8-flash",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.8-flash is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666078323_5r3r",
+      "createdAt": "2026-09-29T07:14:38.323Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "user",
+      "content": "Hi",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666090437_an71",
+      "createdAt": "2026-09-29T07:14:50.437Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "assistant",
+      "content": "Hello! How can Craft AI assist you today?",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 3306,
+        "totalDurationMs": 3328
+      },
+      "id": "msg_1790666093765_qz1l",
+      "createdAt": "2026-09-29T07:14:53.765Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "user",
+      "content": "كوردي باديني ",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666117040_1kas",
+      "createdAt": "2026-09-29T07:15:17.040Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "user",
+      "content": "كوردي باديني ",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666128788_380i",
+      "createdAt": "2026-09-29T07:15:28.788Z"
+    },
+    {
+      "conversationId": "conv_1790635622774_gniq",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.1-pro-preview",
+      "status": "error",
+      "errorMessage": "System Limited: Upstream API rate limit exceeded.",
+      "errorType": "RATE_LIMIT_EXCEEDED",
+      "id": "msg_1790666128888_wcsl",
+      "createdAt": "2026-09-29T07:15:28.888Z"
+    },
+    {
+      "conversationId": "conv_1790666201276_d1lw",
+      "role": "user",
+      "content": "Test prompt with gemini-3.1-pro-preview to verify graceful fallback or generation",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666201277_hzqn",
+      "createdAt": "2026-09-29T07:16:41.277Z"
+    },
+    {
+      "conversationId": "conv_1790666201276_d1lw",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.1-pro-preview",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.1-pro-preview is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666202326_lad5",
+      "createdAt": "2026-09-29T07:16:42.326Z"
+    },
+    {
+      "conversationId": "conv_1790666223827_ggdh",
+      "role": "user",
+      "content": "Explain what a closure in JavaScript is in one concise sentence.",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666223827_deg7",
+      "createdAt": "2026-09-29T07:17:03.827Z"
+    },
+    {
+      "conversationId": "conv_1790666223827_ggdh",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.1-pro-preview",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.1-pro-preview is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666225028_jkc5",
+      "createdAt": "2026-09-29T07:17:05.028Z"
+    },
+    {
+      "conversationId": "conv_1790666265445_6xsw",
+      "role": "user",
+      "content": "Test prompt to check debug error",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666265445_sps8",
+      "createdAt": "2026-09-29T07:17:45.445Z"
+    },
+    {
+      "conversationId": "conv_1790666265445_6xsw",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.1-pro-preview",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.1-pro-preview is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666269186_upn1",
+      "createdAt": "2026-09-29T07:17:49.186Z"
+    },
+    {
+      "conversationId": "conv_1790666276202_ihim",
+      "role": "user",
+      "content": "Test prompt to check debug error",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666276202_z1pv",
+      "createdAt": "2026-09-29T07:17:56.202Z"
+    },
+    {
+      "conversationId": "conv_1790666276202_ihim",
+      "role": "assistant",
+      "content": "Systems are fully operational. I am **Craft AI**, ready to assist you. \n\nNo debug errors detected. How can I help you today?",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 3167,
+        "totalDurationMs": 3274
+      },
+      "id": "msg_1790666279476_scc1",
+      "createdAt": "2026-09-29T07:17:59.476Z"
+    },
+    {
+      "conversationId": "conv_1790666299782_0b4o",
+      "role": "user",
+      "content": "Test prompt 1: Say hello from flash",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666299782_qu2h",
+      "createdAt": "2026-09-29T07:18:19.782Z"
+    },
+    {
+      "conversationId": "conv_1790666299782_0b4o",
+      "role": "assistant",
+      "content": "Hello! Craft AI is here, operating with flash speed and precision. How can I assist you today?",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 1939,
+        "totalDurationMs": 2025
+      },
+      "id": "msg_1790666301807_sur5",
+      "createdAt": "2026-09-29T07:18:21.807Z"
+    },
+    {
+      "conversationId": "conv_1790666306243_jxgl",
+      "role": "user",
+      "content": "Test prompt 2: Quick math check 15 * 15",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666306243_wxns",
+      "createdAt": "2026-09-29T07:18:26.243Z"
+    },
+    {
+      "conversationId": "conv_1790666306243_jxgl",
+      "role": "assistant",
+      "content": "**225**",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 8932,
+        "totalDurationMs": 8934
+      },
+      "id": "msg_1790666315177_alus",
+      "createdAt": "2026-09-29T07:18:35.177Z"
+    },
+    {
+      "conversationId": "conv_1790666306243_jxgl",
+      "role": "user",
+      "content": "كوردي باديني ",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666405916_0wwn",
+      "createdAt": "2026-09-29T07:20:05.916Z"
+    },
+    {
+      "conversationId": "conv_1790666306243_jxgl",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.1-pro-preview",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.1-pro-preview is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666406806_9rdm",
+      "createdAt": "2026-09-29T07:20:06.806Z"
+    },
+    {
+      "conversationId": "conv_1790666718857_oe2g",
+      "role": "user",
+      "content": "Hi, I am testing message 1.",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666718857_dh7g",
+      "createdAt": "2026-09-29T07:25:18.857Z"
+    },
+    {
+      "conversationId": "conv_1790666718857_oe2g",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.8-flash",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.8-flash is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666719685_5nfn",
+      "createdAt": "2026-09-29T07:25:19.685Z"
+    },
+    {
+      "conversationId": "conv_1790666723908_oxfa",
+      "role": "user",
+      "content": "Hi, I am testing message 1.",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666723908_4v9s",
+      "createdAt": "2026-09-29T07:25:23.908Z"
+    },
+    {
+      "conversationId": "conv_1790666723908_oxfa",
+      "role": "assistant",
+      "content": "Hello! I am **Craft AI**. Your message has been received loud and clear. \n\nHow can I help you today?",
+      "model": "gemini-3.8-flash",
+      "status": "complete",
+      "metrics": {
+        "ttftMs": 2224,
+        "totalDurationMs": 2238
+      },
+      "id": "msg_1790666726146_ped7",
+      "createdAt": "2026-09-29T07:25:26.146Z"
+    },
+    {
+      "conversationId": "conv_1790666723908_oxfa",
+      "role": "user",
+      "content": "Turn 2: What was my previous message?",
+      "attachments": [],
+      "status": "complete",
+      "id": "msg_1790666737592_v0cn",
+      "createdAt": "2026-09-29T07:25:37.592Z"
+    },
+    {
+      "conversationId": "conv_1790666723908_oxfa",
+      "role": "assistant",
+      "content": "",
+      "model": "gemini-3.8-flash",
+      "status": "error",
+      "errorMessage": "Model capacity unavailable: gemini-3.8-flash is experiencing high demand.",
+      "errorType": "MODEL_UNAVAILABLE",
+      "id": "msg_1790666739264_jzf9",
+      "createdAt": "2026-09-29T07:25:39.264Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "adminId": "user_norhan",
+      "adminName": "Norhan Rekani",
+      "adminEmail": "norhanrekani03@gmail.com",
+      "action": "REMOVE_ROLE",
+      "targetUserId": "user_guest",
+      "targetEmail": "guest@craft.ai",
+      "details": "Changed role from ADMIN to USER.",
+      "metadata": {
+        "previousRole": "admin",
+        "newRole": "user",
+        "operatorPermissions": [
+          "users.view",
+          "plans.view"
+        ]
+      },
+      "id": "audit_1790635272170_0vav",
+      "createdAt": "2026-09-28T22:41:12.170Z"
+    },
+    {
+      "adminId": "user_norhan",
+      "adminName": "Norhan Rekani",
+      "adminEmail": "norhanrekani03@gmail.com",
+      "action": "ASSIGN_ROLE",
+      "targetUserId": "user_guest",
+      "targetEmail": "guest@craft.ai",
+      "details": "Changed role from USER to ADMIN.",
+      "metadata": {
+        "previousRole": "user",
+        "newRole": "admin",
+        "operatorPermissions": [
+          "users.view",
+          "plans.view"
+        ]
+      },
+      "id": "audit_1790635268945_mqm7",
+      "createdAt": "2026-09-28T22:41:08.945Z"
+    },
+    {
+      "adminId": "user_norhan",
+      "adminName": "Norhan Rekani",
+      "adminEmail": "norhanrekani03@gmail.com",
+      "action": "GIFT_PLAN",
+      "targetUserId": "user_alex",
+      "targetEmail": "alex@craft.ai",
+      "details": "Gifted Craft AI Pro (30 days). Reason: Top community contributor",
+      "metadata": {
+        "previousPlan": "free",
+        "newPlan": "pro",
+        "durationDays": 30,
+        "expiresAt": "2026-10-28T22:40:49.396Z",
+        "reason": "Top community contributor"
+      },
+      "id": "audit_1790635249396_3dfh",
+      "createdAt": "2026-09-28T22:40:49.396Z"
+    }
+  ],
+  "systemConfig": {
+    "freeLimits": {
+      "messagesPerDay": 25,
+      "maxUploadMB": 5,
+      "allowedModels": [
+        "gemini-3.8-flash"
+      ],
+      "voiceEnabled": true
+    },
+    "proLimits": {
+      "messagesPerDay": 500,
+      "maxUploadMB": 25,
+      "allowedModels": [
+        "gemini-3.8-flash",
+        "gemini-3.1-pro-preview",
+        "gemini-3.1-flash-lite-image"
+      ],
+      "voiceEnabled": true
+    },
+    "maintenanceMode": false,
+    "simulatedProviderLimit": false
+  }
+}

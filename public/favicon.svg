@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="craftGrad1" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="craftGrad2" x1="12" y1="12" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect width="48" height="48" rx="12" fill="#0F172A" />
+  <!-- Outer C-shaped faceted craft lattice -->
+  <path d="M34 14C31.5 11.5 28 10 24 10C16.268 10 10 16.268 10 24C10 31.732 16.268 38 24 38C28 38 31.5 36.5 34 34L29.5 29.5C28.2 30.5 26.2 31.5 24 31.5C19.858 31.5 16.5 28.142 16.5 24C16.5 19.858 19.858 16.5 24 16.5C26.2 16.5 28.2 17.5 29.5 18.5L34 14Z" fill="url(#craftGrad1)" />
+  <!-- Inner luminous craft spark / gem -->
+  <path d="M28 24L36 21L39 24L36 27L28 24Z" fill="url(#craftGrad2)" />
+  <circle cx="28" cy="24" r="3" fill="#FFFFFF" opacity="0.9" />
+</svg>
